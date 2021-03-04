@@ -622,10 +622,10 @@ export default function RunPage(props) {
                 </Paper>
                 <br />
                 <Paper elevation={2}>
-                    {!displayJobGroup && (
+                    {false && !displayJobGroup && (
                         <Skeleton animation="wave" height={'30vh'} variant="rect"></Skeleton>
                     )}
-                    {jobGroupData.length !== 0 && (
+                    {false && jobGroupData.length !== 0 && (
                         <Chart
                             //width={600}
                             height={'1000px'}
